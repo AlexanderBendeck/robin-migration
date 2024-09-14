@@ -1,0 +1,333 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-right: 30px;
+  padding-right: 6px;
+}
+
+#example_img {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+#question_radio {
+  display: none;
+}
+
+#scatterplot_show /*#demo button */ {
+  margin-right: 50px;
+}
+
+span.navbar-brand {
+  margin-right: 50px !important;
+}
+
+#example_label {
+  display: inline-block;
+  margin-top: 8.5px;
+  margin-left: 0px;
+  margin-right: 7.5px;
+  float: left;
+  padding: 6px;
+  font-size: 14px;
+}
+
+.nav>li>a {
+  display: none !important;
+}
+
+#table_error_message {
+  font-weight: bold;
+  color: red;
+}
+
+/* Plot has bottom=10, height=250 */
+.legend_selection {
+  right: 10px;
+  bottom: 280px; 
+}
+
+
+.legend_noSelection {
+  right: 10px;
+  bottom: 10px;
+}
+
+.legend_noMenus {
+  right: 10px;
+  bottom: 10px;
+}
+
+.legend_noScatterplot {
+  right: 10px;
+  bottom: 10px;
+}
+
+#scatterplot_close {
+  z-index: 999;
+  position: relative;
+  margin-bottom: -20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 350;     /* 200 */
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+#controls {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  
+  /*zoom: 0.9;*/
+  /*transition: opacity 500ms 1s;*/
+  display: none;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  opacity: 1;
+  transition-delay: 0;
+}
+div.dataTables_filter {
+  float: left !important;
+}
+#demo_panel, #example_panel, #help_panel, #about_panel, #snapshot_submission_panel, #snapshot_view_panel {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  cursor: move;
+  /* Fade out while not hovering */
+  /*opacity: 0.65;*/
+  /*zoom: 0.9;*/
+  /*transition: opacity 500ms 1s;*/
+}
+#text_desc{
+    padding: 20px;
+}
+#controls:hover {
+  /* Fade in while hovering */
+  /*opacity: 0.95;
+  transition-delay: 0;*/
+}
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
+
+
+.panel {
+  overflow: auto;
+  height = 90%;
+}
+
+.slider1 .irs-bar {border-color: #cdcdcd; background: linear-gradient(to bottom, #DDD -50%, #FFF 150%);}
+                                     
+.slider1 .irs-bar-edge { border-color: #cdcdcd; background-color: #cdcdcd;}
+
+.slider1 .irs-grid-pol.small {height: 0px;}
+
+/*
+.navbar-nav {
+  display:none;
+}
+*/
+
+.menu_button {
+  margin-top: 7.5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.close_button {
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 50%;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.footer {
+  margin-top: 7.5px;
+  padding: 0px;
+  float: right;
+  display: inline;
+}
+
+.selectize-dropdown {
+    overscroll-behavior-y: none;
+}
+
+.leaflet-popup-content-wrapper {
+  opacity: 0.8;
+  
+  /* pointer-events: none; */
+}
+
+
+.leaflet-popup-content {
+  margin: 7px 13px;
+}
+
+
+.inline-block-text {
+  display: inline-block;
+}
+
+.inline-text {
+  display: inline;
+}
+
+#new_controls {
+  /*
+  padding: 0 20px 20px 20px;
+  */
+  padding: 0 20px 10px 20px;
+  
+  opacity: 0.65;
+}
+
+#new_controls:hover {
+  /* Fade in while hovering */
+  opacity: 1;
+  transition-delay: 0;
+}
+
+#new_controls input[type="number"] {
+  max-width: 100%;
+}
+
+#new_controls div {
+  display: inline-block;
+}
+
+.inline-input-container .form-group.shiny-input-container {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inline-input-container.buffer-right .form-group.shiny-input-container {
+  margin-right: 4px;
+}
+
+#new_controls .control-label {
+  margin-right: 4px;
+}
+
+#new_controls .checkbox {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#choose_by {
+  width: inherit;
+  display: block !important;
+  margin-bottom: 10px;
+}
+
+#choose_by-label {
+  margin-bottom: 0px;
+}
+
+#new_controls h3 {
+  margin-top: 10px;
+}
+
+#new_controls h3.top-header {
+  margin-top: 20px;
+}
+
+#new_num_counties {
+  margin-left: 2px;
+}
+
+#new_num_counties, #in_out,
+#gop_pct_20_A, #gop_pct_20_B,
+#gop_pct_16_A, #gop_pct_16_B,
+#per_degree_A, #per_degree_B,
+#hh_income_A, #hh_income_B,
+#code_select {
+  height: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+div.details-mode-county-text {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+div.current-view-controls select {
+  padding: 2px;
+  text-align: center;
+}
+
+div.current-view-controls input[type="number"] {
+  padding: 2px;
+  text-align: center;
+}
+
+.cursor-n-resize, .cursor-ns-resize, .cursor-s-resize,
+.cursor-e-resize, .cursor-w-resize, .cursor-ew-resize, {
+  cursor: default !important;
+}
+
+#scatter rect.edrag, #scatter rect.wdrag, #scatter rect.ewdrag,
+#scatter rect.ndrag, #scatter rect.sdrag, #scatter rect.nsdrag,
+#scatter rect.nwdrag, #scatter rect.swdrag,
+#scatter rect.nedrag, #scatter rect.sedrag {
+  cursor: default !important;
+}
+/*
+div.blah h2 {
+  background-color: #cdcdcd;
+  margin: 0px;
+  height: 41px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+*/

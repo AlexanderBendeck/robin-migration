@@ -1,0 +1,2 @@
+<b>Welcome!</b> This tool allows you to explore migration patterns in the United States at the county level. <br><br> Clicking on an individual county will show migration patterns into or out of that county. Using the options in the sidebar, you can then select the direction of migration (in or out), color of counties on the map, and more.
+To see what kinds of insights you can gain from using this tool, complete the <b>Interactive Quiz</b> or look at the pre-set <b>Snapshots</b>. You can also jump right in and click on a county on the map.
